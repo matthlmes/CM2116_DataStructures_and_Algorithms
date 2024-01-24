@@ -1,0 +1,35 @@
+Writing PsuedoCode
+
+Q1 - Finding smallest number in an array
+
+1. START
+2. INITIALISE array of integers
+3. SET min = first value of array
+4. FOR length of the array
+	4.1. IF array value < min
+	4.2. SET min = array value
+5. print min
+
+
+Q2 - Counting even numbers in an array
+
+1. START
+2. INITIALISE array of integers
+3. SET count = 0
+4. FOR length of the array
+	4.1. IF array value % 2 is EQUAL TO 0
+	4.2. SET count = count + 1
+5. print count
+
+
+Q3 - Find average class grade
+
+1. START
+2. INITIALISE array of integers
+3. SET length = length of array as an Integer
+4. SET sum = 0 as an Integer
+5. SET average = 0 as a Double
+6. FOR array length
+	6.1 SET sum = sum + array value
+7. SET average = sum / length
+8. print average  
